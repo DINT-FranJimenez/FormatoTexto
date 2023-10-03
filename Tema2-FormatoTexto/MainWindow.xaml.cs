@@ -23,6 +23,8 @@ namespace Tema2_FormatoTexto
         public MainWindow()
         {
             InitializeComponent();
+            
+            azulRadioButton.IsChecked = true;
         }
 
         private void EscribeTextBox_TextChanged(object sender, TextChangedEventArgs e)
